@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "小米笔记一键导出",
+  "version": "1.4.1",
+  "description": "将小米云笔记、分类和图片打包为适合 AI 阅读的文件。",
+  "permissions": [
+    "downloads",
+    "offscreen"
+  ],
+  "host_permissions": [
+    "https://i.mi.com/*",
+    "https://*.mi-img.com/*",
+    "https://*.xiaomi.net/*",
+    "https://*.xiaomi.com/*",
+    "https://*.mi.com/*"
+  ],
+  "action": {
+    "default_title": "小米笔记一键导出",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}

@@ -1,0 +1,7 @@
+node_modules/
+*.zip
+!releases/*.zip
+*.crx
+AI导出插件_1.4.0/
+.agent/
+.env*
